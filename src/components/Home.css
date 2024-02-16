@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap");
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-div {
+  background-color: #dedada;
+  width: 64%;
+  height: 400px;
+}
+.heading {
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+  font-size: 53px;
+  font-weight: bolder;
+  text-align: center;
+}
+.input-div {
+  width: 96%;
+  display: flex;
+  margin: 0 10px 0 45px;
+}
+.input-div-childMain {
+  width: 40%;
+}
+.input-div-child {
+  width: 23%;
+}
+.input-div-child-icon {
+  width: 14%;
+}
+.swap-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 13px;
+}
+.head-p {
+  font-weight: 500;
+  color: #008000;
+  font-size: 16px;
+}
+.amount-input {
+  width: 80%;
+  height: 25px;
+}
+.country-input {
+  width: 70%;
+  height: 30px;
+}
+.btn {
+  height: 25px;
+  width: 89px;
+  border: 2px solid #008000;
+  background-color: #95d595;
+  color: #008000;
+  margin: 10px 0 10px 45px;
+  font-weight: 800;
+}
+.result-p {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 20px 45px;
+}
+.last-p {
+  font-size: 23px;
+  font-weight: 400;
+  color: #008000;
+  margin: 10px 0 25px 45px;
+}
